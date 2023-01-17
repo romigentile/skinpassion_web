@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- Etiqueta cerrada -->
+    <meta charset="UTF-8"> <!-- Etiqueta abierta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+
+    <!-- ESCRIBO EL LINK CSS-->
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+</head> 
+<body>
+    <header class="header">
+        <a class="header__logocontenedor" href="../index.html"> <!-- hago la imagen clickeable-->
+            <img class="header__logo" src = "../img/LogoWeb.png" alt = "LOGO DE LA EMPRESA">
+        </a>
+      
+        <nav> <!-- habilita la navegacion en enlaces-->
+            <!-- anchor o ancla *a* : permite vincular diferentes html del sitio-->
+            <ul class="header__list">
+                <li><a class="header__anchor header__anchor" href="../index.html">INICIO</a> <!-- ./ buscar bien el directorio--></li>
+                
+                <li><a class="header__anchor" href="../vistas/servicio.html">SERVICIO</a></li>
+
+                
+                <li><a class="header__anchor" href="../vistas/turnos.html">TURNOS</a></li>
+                
+                <li><a class="header__anchor" href="../vistas/productos.html">PRODUCTOS</a> <!-- ./ buscar bien el directorio--></li>
+
+                <li><a class="header__anchor" href="../vistas/equipo.html">NOSOTRAS</a></li>
+
+
+                <li><a class="header__anchor--activo" href="../vistas/contacto.html">CONTACTO</a></li>
+                
+                
+            </ul>
+       </nav>
+    </header>
+
+    <div class="div">
+        <img class="div__img" src="../img/PortadaWeb1.jpg" alt="CARRUSEL">
+    </div>
+
+
+     <form action="#" method = "get" enctype ="multipart/form-data"> 
+
+        <fieldset>
+            <legend><strong>FORMULARIO DE CONTACTO</strong></legend>
+        
+            <div>
+                <label for="name">Nombre y Apellido</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono" required>
+            </div>
+
+            <div>
+                <label for="age">Edad</label>
+                <input type="number" name="age" min="15" max="99" id="age" required>
+            </div>
+
+            <div>
+                <strong>Mensaje</strong>
+                <input type="text" name="mensaje" id="mensaje" required>
+            </div>
+            
+            <div>
+                <input type="button" value="Enviar">
+            </div>
+
+        </fieldset>
+     </form> 
+    
+    <footer class="footer"> 
+        <a class="footer__logocontenedor" href="../index.html"> <!-- hago la imagen clickeable-->
+            <img class="footer__logo" src = "../img/LogoWeb.png" alt = "LOGO DE LA EMPRESA">
+        </a>
+
+        <p>Buenos Aires, Argentina</p>
+
+        <p>email@decontacto.com</p>
+
+        <div class="footer__div">
+            <a href="https://www.instagram.com/skinpassion.arg/">
+                <img class="footer__imgredes"  src="../img/instagram.png" alt="Instagram">
+            </a>
+
+            <a href="https://api.whatsapp.com/send?phone=541161197384">
+                <img class="footer__imgredes"  src="../img/whatsapp.png" alt="Whatsapp">
+            </a>
+
+        </div>
+    
+    </footer>
+</body>
+</html>
+
