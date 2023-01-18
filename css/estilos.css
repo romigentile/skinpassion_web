@@ -136,3 +136,20 @@ h1{
     margin-bottom: 2rem;
 
 }
+
+/* MEDIA QUERIES ESTILOS MOVILES*/
+
+@media screen and (max-width: 425px ){
+
+    .header{
+        flex-direction: column;
+    }  
+
+    .header__logocontenedor {
+        margin: auto;
+    }
+
+    .header__list {
+        display: flex;
+        font-size: xx-small;
+}
