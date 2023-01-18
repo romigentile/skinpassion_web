@@ -95,6 +95,7 @@
     margin: auto;
 }
 .main__anchorimg{
+
     width: 10rem;
 }
 
@@ -127,14 +128,122 @@ h1{
 
 }
 
-
 .section__divparrafo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
 
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
 
+/* MEDIA QUERIES ESTILO LAPTOP*/
+@media screen and (max-width: 1024px){
+
+    .section {
+        flex-direction: column;
+        align-items: unset;
+   }
+   
+   .section__video {
+       width: auto;
+       margin: 1rem 1rem 1rem 1rem;
+   }
+
+   .section__div{
+    width: auto;
+}
+
+    .section__banner{
+        margin: auto;
+    }
+
+}
+
+/* MEDIA QUERIES ESTILO TABLET*/
+
+@media screen and (max-width: 768px){
+
+    .header{
+        flex-direction: column;
+    }  
+
+    .header__logocontenedor {
+        margin: auto;
+    }
+
+    .header__list {
+        display: flex;
+        font-size: small;
+    }
+
+    .div {
+        height: 350px;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-gap: 2px;
+    }
+
+    .main__div {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+
+    .main__anchorimg {
+        width: 6rem;
+    }
+
+    .main__divsubtitulo {
+        font-size: small;
+    }
+
+    .section {
+         flex-direction: column;
+         align-items: unset;
+    }
+    
+    .section__video {
+        width: auto;
+        margin: 1rem;
+    }
+
+    .section__div {
+        display: flex;
+        width: auto;
+        padding: 1rem 1rem 1rem 1rem;
+        overflow-x: hidden;
+        justify-content: center;
+    }
+
+    .section__divparrafo {
+        text-align: center;
+        margin-top: unset;
+        margin-bottom: 1rem;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 30% 25% 25% 20%;
+        font-size: small;
+        justify-items: center;
+    }
+
+    .footer__logocontenedor{
+        margin: unset;
+    }
+
+    .footer__logo {
+        width: 150px;
+        margin: 0%;
+    }
+
+    .footer__div {
+        margin-right: 0rem;
+        gap: 1rem;
+    }
 }
 
 /* MEDIA QUERIES ESTILOS MOVILES*/
@@ -194,6 +303,11 @@ h1{
         overflow-x: hidden;
     }
 
+    .section__banner{
+        width: 350px;
+    }
+
+
     .section__divparrafo {
         text-align: center;
         margin-top: unset;
@@ -221,6 +335,5 @@ h1{
         margin-right: 0rem;
         gap: 1rem;
     }
-
-
 }
+
