@@ -137,6 +137,93 @@ h1{
 
 }
 
+/* MEDIA QUERIES ESTILO TABLET*/
+
+@media screen and (max-width: 768px){
+
+    .header{
+        flex-direction: column;
+    }  
+
+    .header__logocontenedor {
+        margin: auto;
+    }
+
+    .header__list {
+        display: flex;
+        font-size: small;
+    }
+
+    .div {
+        height: 350px;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-gap: 2px;
+    }
+
+    .main__div {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+
+    .main__anchorimg {
+        width: 6rem;
+    }
+
+    .main__divsubtitulo {
+        font-size: small;
+    }
+
+    .section {
+         flex-direction: column;
+         align-items: unset;
+    }
+    
+    .section__video {
+        width: auto;
+        margin: 1rem;
+    }
+
+    .section__div {
+        display: flex;
+        width: auto;
+        padding: 1rem 1rem 1rem 1rem;
+        overflow-x: hidden;
+        justify-content: center;
+    }
+
+    .section__divparrafo {
+        text-align: center;
+        margin-top: unset;
+        margin-bottom: 1rem;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 30% 25% 25% 20%;
+        font-size: small;
+        justify-items: center;
+    }
+
+    .footer__logocontenedor{
+        margin: unset;
+    }
+
+    .footer__logo {
+        width: 150px;
+        margin: 0%;
+    }
+
+    .footer__div {
+        margin-right: 0rem;
+        gap: 1rem;
+    }
+}
+
 /* MEDIA QUERIES ESTILOS MOVILES*/
 
 @media screen and (max-width: 425px){
@@ -221,6 +308,5 @@ h1{
         margin-right: 0rem;
         gap: 1rem;
     }
-
-
 }
+
