@@ -177,4 +177,27 @@ h1{
     .main__divsubtitulo {
         font-size: x-small;
     }
+
+    .section {
+         flex-direction: column;
+         align-items: unset;
+    }
+    
+    .section__video {
+        width: auto;
+        margin: 1rem;
+    }
+
+    .section__div {
+        width: auto;
+        padding: 1rem 1rem 1rem 1rem;
+        overflow-x: hidden;
+    }
+
+    .section__divparrafo {
+        text-align: center;
+        margin-top: unset;
+        margin-bottom: 1rem;
+    }
+
 }
