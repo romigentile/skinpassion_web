@@ -136,3 +136,91 @@ h1{
     margin-bottom: 2rem;
 
 }
+
+/* MEDIA QUERIES ESTILOS MOVILES*/
+
+@media screen and (max-width: 425px){
+
+    .header{
+        flex-direction: column;
+    }  
+
+    .header__logocontenedor {
+        margin: auto;
+    }
+
+    .header__list {
+        display: flex;
+        font-size: xx-small;
+    }
+
+    .div {
+        height: 200px;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 2px;
+    }
+
+    .main__div {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+
+    .main__anchorimg {
+        width: 6rem;
+    }
+
+    .main__divsubtitulo {
+        font-size: x-small;
+    }
+
+    .section {
+         flex-direction: column;
+         align-items: unset;
+    }
+    
+    .section__video {
+        width: auto;
+        margin: 1rem;
+    }
+
+    .section__div {
+        width: auto;
+        padding: 1rem 1rem 1rem 1rem;
+        overflow-x: hidden;
+    }
+
+    .section__divparrafo {
+        text-align: center;
+        margin-top: unset;
+        margin-bottom: 1rem;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 10% 10% 30%;
+        font-size: x-small;
+        justify-items: center;
+    }
+
+    .footer__logocontenedor{
+        margin: unset;
+    }
+
+    .footer__logo {
+        width: 150px;
+        margin: 0%;
+    }
+
+    .footer__div {
+        margin-right: 0rem;
+        gap: 1rem;
+    }
+
+
+}
