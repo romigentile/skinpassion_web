@@ -200,4 +200,27 @@ h1{
         margin-bottom: 1rem;
     }
 
+    .footer {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 10% 10% 30%;
+        font-size: x-small;
+        justify-items: center;
+    }
+
+    .footer__logocontenedor{
+        margin: unset;
+    }
+
+    .footer__logo {
+        width: 150px;
+        margin: 0%;
+    }
+
+    .footer__div {
+        margin-right: 0rem;
+        gap: 1rem;
+    }
+
+
 }
