@@ -157,4 +157,24 @@ h1{
     .div {
         height: 200px;
     }
+
+    .main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 2px;
+    }
+
+    .main__div {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+
+    .main__anchorimg {
+        width: 6rem;
+    }
+
+    .main__divsubtitulo {
+        font-size: x-small;
+    }
 }
