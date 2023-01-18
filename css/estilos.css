@@ -139,7 +139,7 @@ h1{
 
 /* MEDIA QUERIES ESTILOS MOVILES*/
 
-@media screen and (max-width: 425px ){
+@media screen and (max-width: 425px){
 
     .header{
         flex-direction: column;
@@ -152,4 +152,9 @@ h1{
     .header__list {
         display: flex;
         font-size: xx-small;
+    }
+
+    .div {
+        height: 200px;
+    }
 }
