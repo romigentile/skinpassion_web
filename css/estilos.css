@@ -141,6 +141,13 @@ h1{
 
 }
 
+/* MEDIA QUERIES ESTILO LAPTOP*/
+
+@media screen and (max-width: 1024px){
+
+
+}
+
 /* MEDIA QUERIES ESTILO TABLET*/
 
 @media screen and (max-width: 768px){
