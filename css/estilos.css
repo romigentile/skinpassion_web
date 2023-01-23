@@ -43,15 +43,10 @@
 }
 
 .div{
-    width: auto;
-    height: 400px;
+    padding: 0%;
 }
 
-.div__img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 
 .footer{
     background-color: #dbc7db96;
