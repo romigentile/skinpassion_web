@@ -172,6 +172,10 @@ h1{
         height: 10rem;
     }
 
+    .div{
+        padding: 0%;
+    }
+
 }
 
 /* MEDIA QUERIES ESTILO TABLET*/
@@ -191,8 +195,8 @@ h1{
         font-size: small;
     }
 
-    .div {
-        height: 350px;
+    .div{
+        padding: 0%;
     }
 
     .main {
@@ -281,8 +285,8 @@ h1{
         font-size: xx-small;
     }
 
-    .div {
-        height: 300px;
+    .div{
+    padding: 0%;
     }
 
     .main {
