@@ -15,29 +15,46 @@
 
 </head> 
 <body>
-    <header class="header">
-        <a class="header__logocontenedor" href="./index.html"> <!-- hago la imagen clickeable-->
-            <img class="header__logo" src = "./img/LogoWeb.png" alt = "LOGO DE LA EMPRESA">
-        </a>
-      
-        <nav> <!-- habilita la navegacion en enlaces-->
-            <!-- anchor o ancla *a* : permite vincular diferentes html del sitio-->
-            <ul class="header__list">
-                <li><a class="header__anchor header__anchor--activo" href="./index.html">INICIO</a> <!-- ./ buscar bien el directorio--></li>
-                
-                <li><a class="header__anchor" href="./vistas/servicio.html">SERVICIO</a></li>
-                
-                <!-- <li><a class="header__anchor" href="./vistas/turnos.html">TURNOS</a></li> -->
-                
-                <li><a class="header__anchor" href="./vistas/productos.html">PRODUCTOS</a> <!-- ./ buscar bien el directorio--></li>
+    <header >
+       
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./img/LogoWeb.png" alt="Logo" width="200" height="120" class="d-inline-block align-text-top">
+              </a>
 
-                <li><a class="header__anchor" href="./vistas/equipo.html">NOSOTRAS</a></li>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-                <li><a class="header__anchor" href="./vistas/contacto.html">CONTACTO</a></li>
-                
-                
-            </ul>
-       </nav>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./vistas/servicio.html">Servicios</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./vistas/productos.html">Productos</a>
+                  </li>
+            
+                  <li class="nav-item">
+                    <a class="nav-link" href="./vistas/equipo.html">Equipo</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./vistas/contacto.html">Contacto</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+
     </header>
 
     <div class="div container-fluid">
