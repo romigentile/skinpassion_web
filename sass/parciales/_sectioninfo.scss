@@ -1,0 +1,25 @@
+.section{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.section__video{
+    width: 50%;
+    margin-left: 1rem;
+}
+
+
+
+.section__divparrafo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: center;
+
+}
+
+.section__banner{
+    height: 150px;
+}

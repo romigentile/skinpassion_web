@@ -1,5 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.navbar-nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header__logo{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.header__logocontenedor{
+    margin-left: 5rem;
+}
+
+.header__list{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    margin-right: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.header__anchor{
+    text-decoration: solid;
+}
+
+.header__anchor--activo{   
+    font-weight: bold;
 }
