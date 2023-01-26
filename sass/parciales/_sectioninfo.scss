@@ -4,22 +4,21 @@
     height: auto;
     align-items: center;
     padding-bottom: 1rem;
+
+    &__video{
+        width: 50%;
+        margin-left: 1rem; 
+    }
+
+    &__divparrafo{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: small;
+        text-align: center;
+    }
+
+    &__banner{
+        height: 150px;
+    }
 }
 
-.section__video{
-    width: 50%;
-    margin-left: 1rem;
-}
 
-
-
-.section__divparrafo{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: small;
-    text-align: center;
-
-}
-
-.section__banner{
-    height: 150px;
-}
