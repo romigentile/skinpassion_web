@@ -3,17 +3,15 @@
   padding: 0;
   box-sizing: border-box; }
 
-.navbar {
-  --bs-navbar-color: purple; }
-
 .navbar-toggler {
   border: 0.5px solid purple; }
 
 .navbar-nav {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --bs-nav-link-color: purple; }
 
 .container-fluid {
-  --bs-gutter-x: 0 ; }
+  --bs-gutter-x: $nulo ; }
 
 .main {
   display: flex; }
