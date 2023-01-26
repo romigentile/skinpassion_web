@@ -96,7 +96,7 @@
     
         &__logo {
             width: 150px;
-            margin: 0%;
+            margin: $nulo;
         }
     
         &__div {
@@ -169,11 +169,11 @@
 
         &__logo {
             width: 150px;
-            margin: 0%;
+            margin: $nulo;
         }
 
         &__div {
-            margin-right: 0rem;
+            margin-right: $nulo;
             gap: 1rem;
         }
     }
