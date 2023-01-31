@@ -19,9 +19,9 @@
         display: grid;
 
         grid-template-rows: 50% 50%;
-        grid-template-columns: auto 40% ;
 
-        justify-items: center;
+        margin-right: 1rem;
+
         column-gap: 1rem;
 
         
@@ -31,8 +31,12 @@
             }
 
         &__divparrafo{
-                width: 15rem;
-                height: 10rem;
+            grid-row: 2/1;
+            text-align: left;
+            }
+
+        &__banner{
+             grid-row: 2/2;
             }
     }
 
@@ -61,7 +65,7 @@
 
     .section {
          flex-direction: column;
-         align-items: unset;
+         align-items: center;
 
         &__video {
             width: auto;
@@ -144,14 +148,13 @@
         }
 
         &__banner{
-            width: 350px;
+            width: 250px;
         }
 
 
         &__divparrafo {
             text-align: center;
-            margin-top: unset;
-            margin-bottom: 1rem;
+            margin: 1rem;
         }
     }
     
