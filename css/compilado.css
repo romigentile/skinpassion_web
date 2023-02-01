@@ -4,11 +4,17 @@
   box-sizing: border-box; }
 
 .navbar-toggler {
-  border: 0.5px solid purple; }
+  border: 0.5px solid purple;
+  margin-right: 1rem; }
 
 .navbar-nav {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  --bs-nav-link-color: purple; }
+  --bs-nav-link-color: purple;
+  margin-left: 1rem; }
+
+.navbar {
+  --bs-navbar-padding-y: $nulo,
+; }
 
 .container-fluid {
   --bs-gutter-x: $nulo ; }
@@ -84,7 +90,8 @@ h1 {
       width: auto; }
     .section__divparrafo {
       grid-row: 2/1;
-      text-align: left; }
+      text-align: left;
+      font-size: large; }
     .section__banner {
       grid-row: 2/2; } }
 
