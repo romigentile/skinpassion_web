@@ -26,7 +26,7 @@
     padding-bottom: 2rem;
     margin: auto; }
   .main__anchorimg {
-    width: 10rem; }
+    width: 30rem; }
 
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -107,7 +107,7 @@ h1 {
       padding-bottom: 1rem;
       margin: auto; }
     .main__anchorimg {
-      width: 15rem; }
+      width: 30rem; }
   .section {
     flex-direction: column;
     align-items: center; }
@@ -151,7 +151,7 @@ h1 {
       padding-bottom: 1rem;
       margin: auto; }
     .main__anchorimg {
-      width: 10rem; }
+      width: 15rem; }
   .section {
     flex-direction: column;
     align-items: unset; }
