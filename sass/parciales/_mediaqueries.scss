@@ -135,10 +135,10 @@
 
     .section {
          flex-direction: column;
-         align-items: unset;
+         align-items: center;
 
         &__video {
-            width: auto;
+            width: 95%;
             margin: 1rem;
         }
 
@@ -149,7 +149,7 @@
         }
 
         &__banner{
-            width: 250px;
+            width: 200px;
         }
 
 

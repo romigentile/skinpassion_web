@@ -154,16 +154,16 @@ h1 {
       width: 15rem; }
   .section {
     flex-direction: column;
-    align-items: unset; }
+    align-items: center; }
     .section__video {
-      width: auto;
+      width: 95%;
       margin: 1rem; }
     .section__div {
       width: auto;
       padding: 1rem 1rem 1rem 1rem;
       overflow-x: hidden; }
     .section__banner {
-      width: 250px; }
+      width: 200px; }
     .section__divparrafo {
       text-align: center;
       margin: 1rem; }
