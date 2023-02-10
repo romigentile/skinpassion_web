@@ -21,10 +21,6 @@
 
 .main {
   display: flex; }
-  .main__div {
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-    margin: auto; }
   .main__anchorimg {
     width: 30rem; }
 
@@ -47,7 +43,7 @@ h1 {
     text-align: center;
     margin: 0.5rem; }
   .section__banner {
-    height: 130px; }
+    height: 250px; }
 
 .footer {
   background-color: #dbc7db96;
@@ -144,26 +140,19 @@ h1 {
   .main {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-gap: 2px; }
+    grid-template-rows: 30% 30% 30% 10%;
+    justify-items: center; }
     .main__div {
       padding-top: 1rem;
-      padding-bottom: 1rem;
-      margin: auto; }
+      padding-bottom: 1rem; }
     .main__anchorimg {
-      width: 15rem; }
+      width: 20rem; }
   .section {
     flex-direction: column;
     align-items: center; }
     .section__video {
       width: 95%;
-      margin: 1rem; }
-    .section__div {
-      width: auto;
-      padding: 1rem 1rem 1rem 1rem;
-      overflow-x: hidden; }
-    .section__banner {
-      width: 200px; }
+      margin: 0.5rem; }
     .section__divparrafo {
       text-align: center;
       margin: 1rem; }

@@ -119,17 +119,16 @@
     .main {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;
-        grid-gap: 2px;
+        grid-template-rows: 30% 30% 30% 10%;
+        justify-items: center;
 
         &__div {
             padding-top: 1rem;
             padding-bottom: 1rem;
-            margin: auto;
         }
 
         &__anchorimg {
-            width: 15rem;
+            width: 20rem;
         }
     }
 
@@ -139,17 +138,7 @@
 
         &__video {
             width: 95%;
-            margin: 1rem;
-        }
-
-        &__div {
-            width: auto;
-            padding: 1rem 1rem 1rem 1rem;
-            overflow-x: hidden;
-        }
-
-        &__banner{
-            width: 200px;
+            margin: 0.5rem;
         }
 
 
