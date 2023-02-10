@@ -96,7 +96,7 @@ h1 {
   .main {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: 30% 30% 30% 10%;
     grid-gap: 2px; }
     .main__div {
       padding-top: 1rem;
