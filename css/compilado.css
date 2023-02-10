@@ -59,7 +59,8 @@ h1 {
     margin-left: 5rem; }
   .footer__logo {
     width: 200px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    margin-left: 2rem; }
   .footer__div {
     display: flex;
     margin-right: 2rem;
