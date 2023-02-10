@@ -20,9 +20,10 @@
   --bs-gutter-x: $nulo ; }
 
 .main {
-  display: flex; }
+  display: grid;
+  grid-template-columns: 33% 33% 33%; }
   .main__anchorimg {
-    width: 30rem; }
+    width: 20rem; }
 
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -68,14 +69,44 @@ h1 {
     height: 2rem;
     object-fit: cover; }
 
-/* MEDIA QUERIES ESTILO LAPTOP*/
-@media screen and (min-width: 1024px) {
+/* MEDIA QUERIES ESTILO PANTALLAS MAS AMPLIAS*/
+@media screen and (min-width: 1440px) {
   .navbar-brand {
     margin-left: 2rem; }
   .navbar-expand-lg .navbar-collapse {
-    justify-content: end; }
+    justify-content: end;
+    margin-right: 1rem; }
   .navbar-nav {
     font-size: large; }
+  .main__anchorimg {
+    width: 35rem; }
+  .section {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    column-gap: 1rem; }
+    .section__video {
+      grid-row: 1/3;
+      width: auto; }
+    .section__divparrafo {
+      grid-row: 2/1;
+      text-align: justify;
+      font-size: large; }
+    .section__banner {
+      grid-row: 2/2;
+      margin-left: 1rem; } }
+
+/* MEDIA QUERIES ESTILO LAPTOP*/
+@media screen and (max-width: 1024px) {
+  .navbar-brand {
+    margin-left: 2rem; }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+    margin-right: 1rem; }
+  .navbar-nav {
+    font-size: small; }
   .section {
     display: grid;
     grid-template-rows: 50% 50%;
@@ -86,10 +117,11 @@ h1 {
       width: auto; }
     .section__divparrafo {
       grid-row: 2/1;
-      text-align: left;
-      font-size: large; }
+      text-align: justify;
+      font-size: small; }
     .section__banner {
-      grid-row: 2/2; } }
+      grid-row: 2/2;
+      margin-left: 1rem; } }
 
 /* MEDIA QUERIES ESTILO TABLET*/
 @media screen and (max-width: 768px) {
@@ -132,7 +164,7 @@ h1 {
       width: 150px;
       margin: 0; }
     .footer__div {
-      margin-right: 0rem;
+      margin-right: 0;
       gap: 1rem; } }
 
 /* MEDIA QUERIES ESTILOS MOVILES*/

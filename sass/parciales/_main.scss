@@ -1,9 +1,10 @@
 
 .main{
-    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 
     
     &__anchorimg{
-        width: 30rem;
+        width: 20rem;
     }
 }
