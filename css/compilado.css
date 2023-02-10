@@ -138,6 +138,7 @@ h1 {
     .main__anchorimg {
       width: 30rem; }
   .section {
+    display: flex;
     flex-direction: column;
     align-items: center; }
     .section__video {
