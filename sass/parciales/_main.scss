@@ -1,8 +1,6 @@
 
 .main{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-
+    display: flex;
     
     &__anchorimg{
         width: 20rem;

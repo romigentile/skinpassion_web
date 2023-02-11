@@ -16,12 +16,14 @@
   --bs-navbar-padding-y: $nulo,
 ; }
 
+.navbar-brand {
+  margin-left: 1rem; }
+
 .container-fluid {
   --bs-gutter-x: $nulo ; }
 
 .main {
-  display: grid;
-  grid-template-columns: 33% 33% 33%; }
+  display: flex; }
   .main__anchorimg {
     width: 20rem; }
 
@@ -36,8 +38,7 @@ h1 {
   align-items: center;
   padding-bottom: 1rem; }
   .section__video {
-    width: 50%;
-    margin-left: 1rem; }
+    width: 50%; }
   .section__divparrafo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
@@ -78,23 +79,24 @@ h1 {
     justify-content: end;
     margin-right: 1rem; }
   .navbar-nav {
-    font-size: large; }
-  .main__anchorimg {
-    width: 35rem; }
+    font-size: medium; }
+  .main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%; }
+    .main__anchorimg {
+      width: 30rem; }
   .section {
     display: grid;
     grid-template-rows: 50% 50%;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    column-gap: 1rem; }
+    column-gap: 1rem;
+    margin: 1rem; }
     .section__video {
       grid-row: 1/3;
       width: auto; }
     .section__divparrafo {
       grid-row: 2/1;
       text-align: justify;
-      font-size: large; }
+      font-size: medium; }
     .section__banner {
       grid-row: 2/2;
       margin-left: 1rem; } }
@@ -108,11 +110,16 @@ h1 {
     margin-right: 1rem; }
   .navbar-nav {
     font-size: small; }
+  .main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%; }
+    .main__anchorimg {
+      width: 20rem; }
   .section {
     display: grid;
     grid-template-rows: 50% 50%;
-    margin-right: 1rem;
-    column-gap: 1rem; }
+    column-gap: 1rem;
+    margin: 1rem; }
     .section__video {
       grid-row: 1/3;
       width: auto; }
@@ -129,8 +136,8 @@ h1 {
   .main {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 30% 30% 10%;
-    grid-gap: 2px; }
+    grid-template-rows: 33% 33% 33%;
+    grid-gap: 1px; }
     .main__div {
       padding-top: 1rem;
       padding-bottom: 1rem;
@@ -140,10 +147,11 @@ h1 {
   .section {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin-right: 0; }
     .section__video {
-      width: auto;
-      margin: 1rem; }
+      width: 95%;
+      margin-bottom: 1rem; }
     .section__div {
       display: flex;
       width: auto;
@@ -182,14 +190,14 @@ h1 {
     .main__anchorimg {
       width: 20rem; }
   .section {
+    display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin-right: 0; }
     .section__video {
-      width: 95%;
-      margin: 0.5rem; }
+      width: 95%; }
     .section__divparrafo {
-      text-align: center;
-      margin: 1rem; }
+      text-align: center; }
   .footer {
     display: grid;
     grid-template-columns: 100%;

@@ -12,11 +12,16 @@
     }
 
     .navbar-nav{
-        font-size: large;
+        font-size: medium;
     }
+    
+    .main {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
 
-    .main__anchorimg{
-            width: 35rem;
+        &__anchorimg{
+             width: 30rem;
+        }
     }
 
     .section {
@@ -24,22 +29,19 @@
 
         grid-template-rows: 50% 50%;
 
-        margin-right: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-
         column-gap: 1rem;
+        margin: 1rem;
 
         
         &__video {
             grid-row: 1/3;
             width: auto;
-            }
+        }
 
         &__divparrafo{
             grid-row: 2/1;
             text-align: justify;
-            font-size: large;
+            font-size: medium;
             }
 
         &__banner{
@@ -49,6 +51,7 @@
     }
 
 }
+
 
 /* MEDIA QUERIES ESTILO LAPTOP*/
 
@@ -67,21 +70,28 @@
         font-size: small;
     }
     
+    .main {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+
+        &__anchorimg{
+             width: 20rem;
+        }
+    }
 
     .section {
         display: grid;
 
         grid-template-rows: 50% 50%;
 
-        margin-right: 1rem;
-
         column-gap: 1rem;
+        margin: 1rem;
 
         
         &__video {
             grid-row: 1/3;
             width: auto;
-            }
+        }
 
         &__divparrafo{
             grid-row: 2/1;
@@ -104,8 +114,8 @@
     .main {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 30% 30% 30% 10%;
-        grid-gap: 2px;
+        grid-template-rows: 33% 33% 33%;
+        grid-gap: 1px;
 
         &__div{
             padding-top: 1rem;
@@ -113,22 +123,23 @@
             margin: auto; 
         }
 
-        &__anchorimg {
+        &__anchorimg{
             width: 30rem;
         }
     }
 
-    .section {
+    .section{
         display: flex;
-         flex-direction: column;
-         align-items: center;
+        flex-direction: column;
+        align-items: center;
+        margin-right: $nulo;
 
-        &__video {
-            width: auto;
-            margin: 1rem;
+        &__video{
+            width: 95%;
+            margin-bottom: 1rem;
         }
     
-        &__div {
+        &__div{
             display: flex;
             width: auto;
             padding: 1rem 1rem 1rem 1rem;
@@ -136,14 +147,14 @@
             justify-content: center;
         }
     
-        &__divparrafo {
+        &__divparrafo{
             text-align: center;
             margin-top: unset;
             margin-bottom: 1rem;
         }
     }
     
-    .footer {
+    .footer{
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 50% 10% 10% 30%;
@@ -154,12 +165,12 @@
             margin: unset;
         }
     
-        &__logo {
+        &__logo{
             width: 150px;
             margin: $nulo;
         }
     
-        &__div {
+        &__div{
             margin-right: $nulo;
             gap: 1rem;
         }
@@ -188,18 +199,18 @@
     }
 
     .section {
+         display: flex;
          flex-direction: column;
          align-items: center;
+         margin-right: $nulo;
 
         &__video {
             width: 95%;
-            margin: 0.5rem;
         }
 
 
         &__divparrafo {
             text-align: center;
-            margin: 1rem;
         }
     }
     
