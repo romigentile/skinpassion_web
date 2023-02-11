@@ -191,6 +191,10 @@
         }
     }
 
+    .form-control {
+        width: 100%;
+    }
+
 }
 
 /* MEDIA QUERIES ESTILOS MOVILES*/
@@ -253,5 +257,9 @@
             margin-right: $nulo;
             gap: 1rem;
         }
+    }
+
+    .form-control {
+        width: 100%;
     }
 }

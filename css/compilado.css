@@ -35,6 +35,24 @@
 .btn {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
+.mb-3 {
+  margin-right: 1rem;
+  margin-left: 1rem; }
+
+.btn_margen {
+  margin-left: 1rem; }
+
+.form-control {
+  width: 50%; }
+
+.form-label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.div__form {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 1rem;
+  margin-top: 1rem; }
+
 .main {
   display: flex; }
   .main__anchorimg {
@@ -198,7 +216,9 @@ h1 {
       margin: 0; }
     .footer__div {
       margin-right: 0;
-      gap: 1rem; } }
+      gap: 1rem; }
+  .form-control {
+    width: 100%; } }
 
 /* MEDIA QUERIES ESTILOS MOVILES*/
 @media screen and (max-width: 425px) {
@@ -236,4 +256,6 @@ h1 {
       margin: 0; }
     .footer__div {
       margin-right: 0;
-      gap: 1rem; } }
+      gap: 1rem; }
+  .form-control {
+    width: 100%; } }
