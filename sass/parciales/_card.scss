@@ -1,0 +1,15 @@
+.card{
+    --bs-card-spacer-y: 0.5rem;
+    --bs-card-border-color: purple;
+    margin-top: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-primary{
+    --bs-btn-bg: purple;
+    --bs-btn-border-color: white;
+}
+
+.btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

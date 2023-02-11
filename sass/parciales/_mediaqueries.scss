@@ -27,6 +27,10 @@
         }
     }
 
+    .card__imagen{
+        width: 18rem;
+    }
+
     .section {
         display: grid;
 
@@ -83,6 +87,10 @@
         }
     }
 
+    .card__imagen{
+        width: 18rem;
+    }
+
     .section {
         display: grid;
 
@@ -129,6 +137,10 @@
         &__anchorimg{
             width: 30rem;
         }
+    }
+
+    .card__imagen{
+        width: 15rem;
     }
 
     .section{
@@ -201,6 +213,10 @@
         }
     }
 
+    .card__imagen{
+        width: 10rem;
+    }
+
     .section {
          display: flex;
          flex-direction: column;
@@ -216,7 +232,6 @@
             text-align: center;
         }
     }
-    
 
     .footer{
         display: grid;
